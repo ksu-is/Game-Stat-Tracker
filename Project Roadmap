@@ -1,6 +1,6 @@
 # Project Roadmap
 
-- [ ] Clone the code repository from Dead-by-Daylight-Score-Tracker.
+- [x] Clone the code repository from Dead-by-Daylight-Score-Tracker.
 - [ ] Review the cloned repository to assess how much code can be transferred to my project.
 - [ ] Identify any issues with certain parts of the code that may cause errors.
 - [ ] Resolve issues identified during previous task.
