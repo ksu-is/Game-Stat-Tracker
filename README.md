@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to the Dead by Daylight Post Game Tracker! If you're like me and obsessed with the asymmetrical horror game Dead by Daylight, you've come to the right place. This tool is designed to help you track and analyze the performance of players in your matches.
+Welcome to the Dead by Daylight Post Game Tracker! If you're like me and obsessed with the asymmetrical horror game Dead by Daylight, you've come to the right place. This tool is designed to help you track and analyze the performance of players in your matches. The code I will be pulling from comes from user iislam99 at https://github.com/iislam99/Dead-by-Daylight-Score-Tracker.git.
 
 ## Game Basics
 
