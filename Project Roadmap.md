@@ -11,3 +11,6 @@
 - [ ] Continuously add more tasks throughout the week if needed.
 - [ ] Perform testing of the code for final submission.
 - [ ] Review and finalize the project for submission.
+- [x] Add missing characters to the code
+- [x] compile match data
+- [x] Compare data of other matches to data input into my code
