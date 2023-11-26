@@ -117,3 +117,25 @@ class DBD_Score_Tracker:
                 print("\nProgram completed execution.")
             except Exception as e:
                 print(f"ERROR: {e}")
+
+def playerpoints():
+    killer_points = int(input("Enter Killer Points: "))
+
+    survivor_1_points = int(input("Enter Survivor 1 Points: "))
+    survivor_2_points = int(input("Enter Survivor 2 Points: "))
+    survivor_3_points = int(input("Enter Survivor 3 Points: "))
+    survivor_4_points = int(input("Enter Survivor 4 Points: "))
+
+    game_data = {
+        "Killer Points": killer_points,
+        "Survivor 1 Points": survivor_1_points,
+        "Survivor 2 Points": survivor_2_points,
+        "Survivor 3 Points": survivor_3_points,
+        "Survivor 4 Points": survivor_4_points
+    }
+
+    return game_data
+
+game_data = playerpoints()
+
+print("\nStored Game Data:")
