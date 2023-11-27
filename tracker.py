@@ -139,3 +139,29 @@ def playerpoints():
 game_data = playerpoints()
 
 print("\nStored Game Data:")
+
+def player1_perks(player_number):
+    perk_choices = []
+
+    perk_1 = input("What is the 1st perk Player " + str(player_number) + " used? ")
+    perk_choices.append(perk_1)
+
+    perk_2 = input("What is the 2nd perk Player " + str(player_number) + " used? ")
+    perk_choices.append(perk_2)
+
+    perk_3 = input("What is the 3rd perk Player " + str(player_number) + " used? ")
+    perk_choices.append(perk_3)
+
+    perk_4 = input("What is the 4th perk Player " + str(player_number) + " used? ")
+    perk_choices.append(perk_4)
+
+    return perk_choices
+
+player_1_perks = player1_perks(1)
+
+print("\nPlayer 1 Perk Choices:")
+print("Perk 1:", player_1_perks[0])
+print("Perk 2:", player_1_perks[1])
+print("Perk 3:", player_1_perks[2])
+print("Perk 4:", player_1_perks[3])
+
