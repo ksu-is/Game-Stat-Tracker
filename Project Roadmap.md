@@ -14,3 +14,4 @@
 - [x] Add missing characters to the code
 - [x] compile match data
 - [x] Compare data of other matches to data input into my code
+- [ ] fix the print statement in the part of my code that allows players to input total points
